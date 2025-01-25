@@ -22,7 +22,9 @@ class CountryListViewModel: CountryListProtocol {
     var countries: [Country] = [Country(name: "Greece"),
                                 Country(name: "Italy"),
                                 Country(name: "Spain"),
-                                Country(name: "Porugal"),
+                                Country(name: "Portugal"),
                                 Country(name: "UK"),
-                                Country(name: "Croatia")]
+                                Country(name: "Croatia"),
+                                Country(name: "Denmark"),
+                                Country(name: "Turkey")]
 }
