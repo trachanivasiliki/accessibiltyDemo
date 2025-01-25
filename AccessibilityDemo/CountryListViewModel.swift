@@ -26,5 +26,6 @@ class CountryListViewModel: CountryListProtocol {
                                 Country(name: "UK"),
                                 Country(name: "Croatia"),
                                 Country(name: "Denmark"),
-                                Country(name: "Turkey")]
+                                Country(name: "Turkey"),
+                                Country(name: "Turkey1")]
 }
