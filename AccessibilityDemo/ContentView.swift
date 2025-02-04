@@ -13,7 +13,7 @@ struct CountryListView: View {
     
     var body: some View {
         Text(model.title)
-            .accessibilityHeading(.h2)
+            .accessibilityHeading(.h3)
             .accessibilityAddTraits(.isHeader)
             .accessibilityIdentifier("Countries_Title")
             .fontWeight(.heavy)
