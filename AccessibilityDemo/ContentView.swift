@@ -15,7 +15,7 @@ struct CountryListView: View {
         Text(model.title)
             .accessibilityHeading(.h3)
             .accessibilityAddTraits(.isHeader)
-            .accessibilityIdentifier("Countries_Title")
+            .accessibilityIdentifier("Countries_Title___")
             .fontWeight(.heavy)
             .padding()
         Divider()
