@@ -13,7 +13,7 @@ struct CountryListView: View {
     
     var body: some View {
         Text(model.title)
-            .accessibilityHeading(.h1)
+            .accessibilityHeading(.h2)
             .accessibilityAddTraits(.isHeader)
             .accessibilityIdentifier("Countries_Title")
             .fontWeight(.heavy)
@@ -51,9 +51,9 @@ struct CountryListView: View {
             VStack {
                 HStack {
                     Text(country.name)
-                        .padding(.leading, 10)
+                        .padding(.leading, 12)
                         .foregroundStyle(.cyan)
-                        .padding(.horizontal, 20)
+                        .padding(.horizontal, 22)
                     Button(action: {
                         print(country.name)
                     }, label: {
