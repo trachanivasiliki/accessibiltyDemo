@@ -6,6 +6,7 @@
 //
 
 //main comment
+//main comment 2
 import SwiftUI
 
 struct CountryListView: View {
