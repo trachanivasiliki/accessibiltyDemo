@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//feature comments
 struct CountryListView: View {
     var model: CountryListViewModel
     @State private var sliderValue: Double = 0
