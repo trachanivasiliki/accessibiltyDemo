@@ -15,14 +15,14 @@ struct CountryListView: View {
         Text(model.title)
             .accessibilityHeading(.h3)
             .accessibilityAddTraits(.isHeader)
-            .accessibilityIdentifier("Countries_Title_")
+            .accessibilityIdentifier("Countries_Title___")
             .fontWeight(.heavy)
             .padding()
         Divider()
         ScrollView {
             countriesList
             Text("Rating:")
-                .accessibilityIdentifier("Slider_Title_")
+                .accessibilityIdentifier("Slider_Title")
             sliderView
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
